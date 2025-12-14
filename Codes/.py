@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-pic = pygame.image.load("notapng.png")
+pic = pygame.image.load("Beluga_d.webp")
 i = True
 
 picx = 0
