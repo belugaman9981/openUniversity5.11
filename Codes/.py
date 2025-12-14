@@ -19,7 +19,8 @@ while i:
     picy += 1
     
     screen.fill(BLACK)
-    screen.blit(pic, (0, 0))
+    screen.blit(pic, (picx, picy))
     pygame.display.flip()
+    timer.tick(60)
     
 pygame.quit()
